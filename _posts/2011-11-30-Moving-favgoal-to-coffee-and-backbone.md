@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  HOW I MOVED FAVGOAL FROM jQuery to Coffee + Backbone + jQuery
+title:  How I moved favgoal.com from jQuery to jQuery + coffee + Backbone
 ---
 
 
