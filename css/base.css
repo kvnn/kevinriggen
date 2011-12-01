@@ -1,0 +1,12 @@
+
+
+.post-list {
+    float: left;
+    width: 200px;
+    
+    text-decoration: none;
+}
+
+    .post-list ul {
+        list-style-type: none;
+    }
