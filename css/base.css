@@ -5,6 +5,10 @@ a {
     text-decoration: none;
 }
 
+h1 a {
+    color: #555;
+}
+
 body {
     color: #555;
 }
@@ -13,7 +17,7 @@ body {
 /** Post List **/
 .post-list {
     float: left;
-    width: 200px;
+    width: 100px;
     
     text-decoration: none;
 }
@@ -31,3 +35,10 @@ body {
     float: left;
     margin: 0px 0px 0px 50px;
 }
+
+    .main p {
+    }
+    
+    
+    
+    
