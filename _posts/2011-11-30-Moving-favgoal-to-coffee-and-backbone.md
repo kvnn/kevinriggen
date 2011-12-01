@@ -3,11 +3,8 @@ layout: post
 title:  How I moved favgoal.com from jQuery to jQuery + coffee + Backbone
 ---
 
+# A list of the original javascript files and their functions
 
-
-'''
-A list of the original javascript files and their functions
-'''
 
 Account
 > add / change email
@@ -59,9 +56,8 @@ Users
 
 
 
-'''
-Process for moving to coffee script
-'''
+# Process for moving to coffee script
+
 (install coffee and get `coffee` working in my terminal)
 for each file_name.js :
 	(1) save as file_name-orig.js if you don't have version control
@@ -83,9 +79,9 @@ for each file_name.js :
         (a) Some of my refactored code compiled without error but ended up being semantically different than my original file. I believe that every case was due to bad indentation on my part.
 
 
-'''
-Process for moving to backbone
-'''
+
+# Process for moving to backbone
+
 (1) read some backbone documentation and examples
 
 
