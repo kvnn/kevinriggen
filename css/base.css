@@ -35,6 +35,10 @@ body {
         .post-list li {
             margin: 0px 0px 15px;
         }
+        
+            .post-list li a {
+                margin-left: 5px;
+            }
     
     
 /** Main Content **/
