@@ -5,7 +5,7 @@ title:  How FavGoal's video processing works
 
 
 ## How FavGoal's video processing works
-` in process `
+` [ in process ] `
 
 
 #### Video Upload
