@@ -1,7 +1,7 @@
 
 /** General **/
 a {
-    color: black;
+    color: #004586;
     text-decoration: none;
 }
 
@@ -13,6 +13,11 @@ h1 a {
 body {
     color: #555;
     font-family: Helvetica, Tahoma, Arial;
+}
+
+h2, h3, h4 {
+    color: black;
+    font-weight: normal;
 }
 
 

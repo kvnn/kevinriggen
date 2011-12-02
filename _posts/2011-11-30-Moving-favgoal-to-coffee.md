@@ -5,15 +5,15 @@ title:  How I moved favgoal.com from jQuery to jQuery + coffee
 
 ## A list of the original javascript files and their functions
 
-####Account
+####account.js
 * add / change email
 * change password
 * show user a message on account.html or upload_avatar.html
 
-####Admin
+####admin.js
 * scripts that run if an administrator is logged in and help them administrate
 
-####Base
+####base.js
 * stuff that is very general, miscellaneous or that everything else depends on
 * csrf setup
 * device / screen detection
@@ -21,21 +21,21 @@ title:  How I moved favgoal.com from jQuery to jQuery + coffee
 * error display
 * looks for an error hashtag and displays an error if found
 
-####Comments
+####comments.js
 * insert a comment into the dom
 * let user a add comment
 
-####Filters
+####filters.js
 * tracks the current goal filter state
 * updates the goal thumbnails list
 * lets a user change the filter state
 * looks for a filter hashtag and applies filters if its found
 
-####Goals-Load
+####goals-load.js
 * loads thumbnails into the dom
 * controls 'more' functionality
 
-####Goals-Play
+####goals-play.js
 * controls currently unused image-only video support
 * loads wikipedia content into goal modal
 * open / close a goal modal
@@ -44,10 +44,10 @@ title:  How I moved favgoal.com from jQuery to jQuery + coffee
 * favorite-button functionality
 * checks url for a goal id in the hashtag and opens a goal if found
 
-####Upload
+####upload.js
 * display a success or error message to a user who has submitted the upload-goal form
 
-####Users
+####users.js
 * determines a user's state and sets it in the DOM logged-in, facebook-registered.
 * controls the login / register modal
 * controls the login / register process
