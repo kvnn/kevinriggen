@@ -3,6 +3,9 @@ layout: post
 title:  How I moved favgoal.com from jQuery to jQuery + coffee
 ---
 
+# How I moved FavGoal from jQuery to jQuery + coffee script
+
+
 ## A list of the original javascript files and their functions
 
 ####account.js
