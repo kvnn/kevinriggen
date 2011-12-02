@@ -4,23 +4,23 @@ title:  How FavGoal's video processing works
 ---
 
 
-# How FavGoal's video processing works
-### in process
+## How FavGoal's video processing works 
+##### in process
 
 
-## Video Upload
+#### Video Upload
 
 
-## The Pending Box
+#### The Pending Box
 
 
-## Acceptance / Denial
+#### Acceptance / Denial
 
 
-## Processing the Video
+#### Processing the Video
 
 
-## Public Nudity
+#### Public Nudity
 
 
 

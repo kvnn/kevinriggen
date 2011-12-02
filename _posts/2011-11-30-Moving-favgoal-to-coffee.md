@@ -3,10 +3,10 @@ layout: post
 title:  How I moved FavGoal from jQuery to jQuery + coffee
 ---
 
-# How I moved FavGoal from jQuery to jQuery + coffee script
+## How I moved FavGoal from jQuery to jQuery + coffee script
 
 
-## A list of the original javascript files and their functions
+### A list of the original javascript files and their functions
 
 ####account.js
 * add / change email
@@ -58,7 +58,7 @@ title:  How I moved FavGoal from jQuery to jQuery + coffee
 
 
 
-## Process for moving to coffee script
+### Process for moving to coffee script
 
 1. install coffee and get `coffee` working in my terminal.
 
