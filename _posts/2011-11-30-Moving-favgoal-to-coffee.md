@@ -63,20 +63,20 @@ title:  How I moved favgoal.com from jQuery to jQuery + coffee
 	1. save as file_name-orig.js if you don't have version control
 	2. save as file_name.coffee
 	3. change syntax to coffee syntax
-	    a. I search & replaced the following :
+	   * I search & replaced the following :
 	        /* to '''
 	        */ to '''
 	        // to #
 	        function.{ to ->
 	        "var " to ""
-	    b. everything else I changed manually
-	    c. get rid of ternaries
+	    * everything else I changed manually
+	    * get rid of ternaries
 	4. run `coffee -c file_name.coffee`
 	5. fix errors
-	    a. It is common to run into strange issues regarding indentation. the most obvious if an error like "unexpected indent at line 145" when the indent makes complete sense. This is surely a space / tab issue in your editor.
-	    b. If you get an error like "word is not defined", than you've left in a "var" or "function" somewhere.
+	    * It is common to run into strange issues regarding indentation. the most obvious if an error like "unexpected indent at line 145" when the indent makes complete sense. This is surely a space / tab issue in your editor.
+	    * If you get an error like "word is not defined", than you've left in a "var" or "function" somewhere.
 	6. if compilation works, test all functionality that this file provides
-        a. Some of my refactored code compiled without error but ended up being semantically different than my original file. I believe that every case was due to bad indentation on my part.
+        * Some of my refactored code compiled without error but ended up being semantically different than my original file. I believe that every case was due to bad indentation on my part.
 
 
 
