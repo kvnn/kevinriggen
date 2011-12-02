@@ -64,11 +64,11 @@ title:  How I moved favgoal.com from jQuery to jQuery + coffee
 	2. save as file_name.coffee
 	3. change syntax to coffee syntax
 	   * I search & replaced the following :
-	        /* to '''
-	        */ to '''
-	        // to #
-	        function.{ to ->
-	        "var " to ""
+	        + /* to '''
+	        + */ to '''
+	        + // to #
+	        + function.{ to ->
+	        + "var " to ""
 	    * everything else I changed manually
 	    * get rid of ternaries
 	4. run `coffee -c file_name.coffee`
