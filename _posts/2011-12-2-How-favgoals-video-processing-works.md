@@ -26,7 +26,7 @@ title:  How FavGoal's video processing works
 > The process monster is an Ubuntu server machine sitting near my feet
 1. The Process Monster downloads acceptable pending videos from the pending box at the cdn
 2. The video is processed
-	+ if the video is an flv, an mp4 is processed using the following ffmpeg command:
+	+ if the video is an flv, a mobile ready mp4 is processed using the following ffmpeg command :
 	    > ` ffmpeg -y -i " + glob_flv[0] + " -vcodec libx264 -b 512k -flags +loop+mv4 -cmp 256 \
         >	   -partitions +parti4x4+parti8x8+partp4x4+partp8x8+partb8x8 \
         >	   -s 640x360 -me_method hex -subq 7 -trellis 1 -refs 5 -bf 0 \
