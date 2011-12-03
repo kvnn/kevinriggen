@@ -29,7 +29,7 @@ title:  How FavGoal's video processing works
 2. The video is processed
 	+ a mobile ready mp4 is processed using the following ffmpeg command :
 	          
-	` ffmpeg -y -i video_file -vcodec libx264 -b 512k -flags +loop+mv4 -cmp 256 \
+	  `ffmpeg -y -i video_file -vcodec libx264 -b 512k -flags +loop+mv4 -cmp 256 \
       -partitions +parti4x4+parti8x8+partp4x4+partp8x8+partb8x8 \
       -s 640x360 -me_method hex -subq 7 -trellis 1 -refs 5 -bf 0 \
       -flags2 +mixed_refs -coder 0 -me_range 16 \
