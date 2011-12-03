@@ -30,7 +30,8 @@ title:  How FavGoal's video processing works
 
 #### Public Nudity
 1. The web app imports all new videos into the database
-2. The end
+2. The video is now considered a Goal
+3. The end
 
 
 
