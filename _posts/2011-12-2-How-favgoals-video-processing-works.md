@@ -45,9 +45,9 @@ title:  How FavGoal's video processing works
     + an arbitrary frame is used as the video thumbnail
     + the frames are montaged together into sets of 65000px wide jpegs, mostly for my sick pleasure but also to one day offer image-only playback or cool image archival or something. Here is the imagemagick montage command I use for each set:
 
-          montage -tile x1 -quality 50 -geometry 650x400+0+0 list_of_frames montage_dir/montage-goal.jpg
+          montage -tile x1 -quality 50 -geometry 650x400+0+0 list_of_frames_in_this_65000px_wide_set montage_dir/montage-goal.jpg
 
-    + Take note : these commands are simplified. They exists within loops and conditionals with variables for file names and option parameters. If you want more details, feel free to ask me on Google+ or something. 
+    + Take note : these commands are simplified. They exist within loops and conditionals with variables for file names and option parameters. If you want more details, feel free to ask me on Google+ or something. 
 
          
         
