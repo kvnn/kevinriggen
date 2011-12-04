@@ -26,9 +26,9 @@ title:  How FavGoal's video processing works
 
 
 #### The Process Monster
-*an Ubuntu server machine sitting near my feet*
+*an ubuntu box keeping my feet warm*
 
-1. The Process Monster downloads acceptable pending videos from the pending box at the cdn
+1. The Process Monster downloads the accepted pending videos from the pending box at the cdn
 2. The video is processed
 	+ a mobile ready mp4 is processed using the following ffmpeg command :
 	          
@@ -38,6 +38,18 @@ title:  How FavGoal's video processing works
           -flags2 +mixed_refs -coder 0 -me_range 16 \
           -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -qmin 10\
           -qmax 51 -qdiff 4 output.mp4
+
+    + TODO : an flv is encoded for flash playback
+    + frames are extracted from the video using the following ffmpeg command :
+          ffmpeg -i video -sameq -r 25 -f image2 frames_dir/%06d.jpg
+    + an arbitrary frame is used as the video thumbnail
+    + the frames are montaged together into sets of 65000px wide jpegs, mostly for my sick pleasure but also to one day offer image-only playback or cool image archival or something. Here is the imagemagick montage command I use for each set:
+
+          montage -tile x1 -quality 50 -geometry 650x400+0+0 list_of_frames montage_dir/montage-goal.jpg
+
+    + Take note : these commands are simplified. They exists within loops and conditionals with variables for file names and option parameters. If you want more details, feel free to ask me on Google+ or something. 
+
+         
         
 3. The video is marked as processed and given a new life on the cdn
 
