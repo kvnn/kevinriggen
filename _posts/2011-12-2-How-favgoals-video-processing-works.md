@@ -10,10 +10,10 @@ title:  How FavGoal's video processing works
 
 
 #### Video Upload
-1. A user uploads a video and submits data with it
-2. The video and data are validated
-3. If everything checks out, the video is shipped to the pending box
-4. If something is amiss, we let the user know
+1. A user uploads a video and its meta data
+2. If everything validates :
+	* the video is transfered to a 'pending' container on the cdn
+	* the video is saved in the database with a 'pending' flag
 
 
 
