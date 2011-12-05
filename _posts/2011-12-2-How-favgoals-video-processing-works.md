@@ -12,16 +12,15 @@ title:  How FavGoal's video processing works
 #### Video Upload
 1. A user uploads a video and its meta data
 2. If everything validates :
-	* the video is transfered to a 'pending' container on the cdn
+	* the video is transferred to a 'pending' container on the cdn
 	* the video is saved in the database with a 'pending' flag
 
 
 
 #### Acceptance / Rejection
-1. Videos are stored in a pending box within a CDN
-2. FavGoal admins have can browse pending videos and let them in or reject them
-3. If a video is rejected, the user is sent a message that will display when they log in
-4. If a video is accepted, it gets marked for download by the Process Monster
+1. FavGoal admins have can browse pending videos and accept or reject them
+2. If a video is rejected, the user is notified
+3. If a video is accepted, it gets marked for download by the Process Monster
 
 
 
@@ -47,18 +46,13 @@ title:  How FavGoal's video processing works
 
           montage -tile x1 -quality 50 -geometry 650x400+0+0 list_of_frames_in_this_65000px_wide_set montage_dir/montage-goal.jpg
 
-    + Take note : these commands are simplified. They exist within loops and conditionals with variables for file names and option parameters. If you want more details, feel free to ask me on Google+ or something. 
-
+    + Take note : these commands are simplified here. They exist within loops and conditionals with variables for file names and option parameters. If you want more details, feel free to ask me on Google+ or something. 
          
         
-3. The video is marked as processed and given a new life on the cdn
+3. Upon each successful process (thumbnail, mp4 generation, etc) the corresponding files are uploaded to the cdn in a public container
 
+4. When all steps have finished, the video is upgraded from 'pending' to 'public'
 
-
-#### Public Nudity
-1. The web app imports all new videos into the database
-2. The video is now considered a Goal
-3. The end
 
 
 
