@@ -18,8 +18,8 @@ title:  How FavGoal's video processing works
 
 
 #### Acceptance / Rejection
-1. FavGoal admins have can browse pending videos and accept or reject them
-2. If a video is rejected, the user is notified
+1. FavGoal admins browse pending videos and accept or reject them
+2. If a video is rejected, the user is notified and the video is removed from the 'pending' container and the cdn
 3. If a video is accepted, it gets marked for download by the Process Monster
 
 
@@ -49,7 +49,7 @@ title:  How FavGoal's video processing works
     + Take note : these commands are simplified here. They exist within loops and conditionals with variables for file names and option parameters. If you want more details, feel free to ask me on Google+ or something. 
          
         
-3. Upon each successful process (thumbnail, mp4 generation, etc) the corresponding files are uploaded to the cdn in a public container
+3. Upon each successful process (thumbnail, mp4 generation, etc) the corresponding file is uploaded to the cdn in a public container
 
 4. When all steps have finished, the video is upgraded from 'pending' to 'public'
 
