@@ -18,18 +18,30 @@ body {
     font-size: 100%;
     color: #555;
     font-family: Helvetica, Tahoma, Arial;
+    line-height: 1.2em;
 }
 
 h2, h3, h4 {
+    margin: 40px 0 0 0;
     color: black;
     font-weight: normal;
+}
+
+.light {
+    color: #eee;
+}
+
+blockquote {
+  color: black;
+  font-family: serif;
+  font-size: 1.1em;
 }
 
 
 /** Post List **/
 .post-list {
     float: left;
-    padding: 15px 0px 0px;
+    padding: 0px 0px 0px;
     width: 279px;
     
     text-decoration: none;
@@ -53,15 +65,56 @@ h2, h3, h4 {
             }
     
     
-/** Main Content **/
-.main {
-    float: left;
-    margin: 0px 0px 0px 50px;
+/** Structure **/
+
+.mainest {
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px 0 0;
 }
 
-    .main p {
-    }
-    
+header {
+    margin: 0 0 20px;
+}
+
+
+.content {
+    float: left;
+    width: 760px;
+}
+
+.sidebar {
+    float: left;
+    width: 150px;
+    margin: 0 0 0 20px;
+    padding: 0 0 0 10px;
+    border-left: 1px solid #eee;
+}
+
+header {
+    margin: 0 0 20px;
+}
+
+
+footer {
+    margin: 100px 0 0;
+}
+
+
+/** Clearfix **/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
     
     
     
