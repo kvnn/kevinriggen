@@ -5,5 +5,7 @@ extensions: [smart]
 collections:
     Bitcoin:
         output: true
-    Life:
+    # Life:
+    #     output: true
+    Coding:
         output: true
