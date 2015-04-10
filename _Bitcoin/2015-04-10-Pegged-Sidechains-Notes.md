@@ -33,13 +33,21 @@ The purpose of sidechains is to allow the transfer of bitcoins from the Bitcoin 
 
 ##Terminology
 *coin or asset:* digital property whose controller can by cryptographically ascertained
+
 *block:* collection of transactions describing changes in asset control
+
 *blockchain:* well-ordered collection of blocks, on which all users must come to consensus
+
 *reogranisation:* occurs locally in clients when a previously accepted chain is overtaken by a competitor chain w/ more proof of work, causing blocks from losing side of fork to be removed from consensus history
+
 *sidechain:* a blockchain that validates data from other blockchains
+
 *two-way peg:* the mechanism by which coins are transferred b/w sidechains & back at a fixed or deterministic exchange rate
+
 *pegged sidechain:* a sidechain that supports two-way pegged assets
+
 *DMMS:* Dynamic Membership Multi-party Signature. Bitcoin's block headers are the first executed example.
+
 *SPV proof:* Simplified payment verification poof: a DMMS that an action occurred on a Bitcoin-like proof-of-work blockchain. Essentially composed of:
     a. a list of block headers demonstrating proof-of-work
     b. cryptographic proof that an output was created in one of the blocks in the list
