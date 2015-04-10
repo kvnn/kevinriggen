@@ -18,9 +18,9 @@ My thoughts while reading [Understanding Ember.js](http://guides.emberjs.com/v1.
 - its nice that they handle un-delegation of child views
 
 ## The Rendering Pipeline
-> " For Ember.js, we've done the work to make templates written using the Handlebars templating language automatically update when the values used inside of them are changed."
+> "For Ember.js, we've done the work to make templates written using the Handlebars templating language automatically update when the values used inside of them are changed."
 
-Here how a template and view combination is rendered and inserted into the DOM as a string:
+Heres how a template and view combination is rendered and inserted into the DOM as a string:
 
 ![Ember render process](http://guides.emberjs.com/v1.11.0/images/view-guide/render-buffer.png)
 
@@ -60,7 +60,8 @@ Ember's templates create a view hierarchy automatically, like this:
 - work in the queue is ordered by priority according to a documented algorithm
 - the run loop is what allows a listener that responds to multiple events not to fire until all of its events have been triggered
 
-The run loop aims to improve something like this:
+The run loop aims to avoid something like this:
+    
     foo.style.height = "500px" // write
     foo.offsetHeight // read (recalculate style, layout, expensive!)
 
@@ -70,7 +71,7 @@ The run loop aims to improve something like this:
     baz.style.height = "200px" // write
     baz.offsetHeight // read (recalculate style, layout, expensive!)
 
-Into something like this, automatically:
+in favor of something like this:
     foo.style.height = "500px" // write
     bar.style.height = "400px" // write
     baz.style.height = "200px" // write
@@ -86,7 +87,7 @@ Into something like this, automatically:
     * setTimeout and setInterval callbacks
     * postMessage and messageChannel event handlers"
 
-- If you forget to wrap a non-EMber async callback in Ember.run, it will approximate a beginning and end for you. This is suboptimal, so always wrap these things in an Ember.run statement.
+- *autoruns*: If you forget to wrap a non-Ember async callback in Ember.run, it will approximate a beginning and end for you. This is suboptimal, so always wrap these things in an Ember.run statement.
 - In *testing mode*, autoruns will not happen and will result in an error. This gives you a chance to fix these instances while allowing some slack on production.
 - Also - Ember's tests may give erroneous errors when async application code is ran outside of a run loop
 
