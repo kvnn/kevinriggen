@@ -3,7 +3,7 @@ layout: post
 title: Initial Thoughts on Ember.js
 ---
 
-Most of this is from [Understanding Ember.js](http://guides.emberjs.com/v1.11.0/understanding-ember/the-view-layer/).
+My thoughts while reading [Understanding Ember.js](http://guides.emberjs.com/v1.11.0/understanding-ember/the-view-layer/).
 
 ## Handlebars Templates
 - shit yeah!
