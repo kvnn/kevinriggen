@@ -3,7 +3,7 @@ layout: post
 title: Notes on BitMessage
 ---
 
-Notes on the [BitMessage Whitepaper](({{ site.url }}/files/bitmessage.pdf)) by Jonathan Warren. These are contextual to my knowledge and beliefs at the time.
+Notes on the [BitMessage Whitepaper]({{ site.url }}/files/bitmessage.pdf) by Jonathan Warren. These are contextual to my knowledge and beliefs at the time.
 
 ##Purpose of BitMessage
 The purpose of BitMessage is to allow users to securely send and receive messages, as well as subscribe to public broadcast messages, using a trustless decentralized peer-to-peer protocol.
