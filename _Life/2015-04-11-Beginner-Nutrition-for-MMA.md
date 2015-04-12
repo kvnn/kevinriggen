@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nutrition for fighting
+title: Beginner Nutrition for MMA
 ---
 This was written for my cousin Jacob, who is looking to train MMA. I'm not going to provide too many sources because we are genetically similar, I have a lot of personal experience and he trusts what I'm saying. While this is advice I'd give almost any of my male peers, I would give it as a peer and not an authority because *I'm not an authority on the subject*.
 
