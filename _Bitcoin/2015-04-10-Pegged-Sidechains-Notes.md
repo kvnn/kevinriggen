@@ -3,7 +3,7 @@ layout: post
 title: Notes on Pegged Sidechains
 ---
 
-These are my rough notes on the [Pegged Sidechains Whitepaper]({{ site.url }}/files/Chain_Of_A_Lifetime_December2014.pdf) by Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra,
+These are my rough notes on the [Pegged Sidechains Whitepaper]({{ site.url }}/files/sidechains.pdf) by Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra,
 Jorge Timón, and Pieter Wuille. They are contextual to my knowledge and beliefs at the time.
 
 ##Purpose

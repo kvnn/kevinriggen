@@ -27,6 +27,7 @@ h2, h3, h4 {
     font-weight: normal;
 }
 
+
 .light {
     color: #eee;
 }
@@ -99,6 +100,25 @@ header {
 footer {
     margin: 100px 0 0;
 }
+
+
+/** Posts **/
+#post section {
+    margin: 0 0 20px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    --webkit-border-radius: 10px;
+    --moz-border-radius: 10px;
+}
+
+#post section:nth-child(even) {
+    background: #fafafa;
+}
+
+    #post section h2 {
+        margin-top: 20px;
+    }
 
 
 /** Clearfix **/
