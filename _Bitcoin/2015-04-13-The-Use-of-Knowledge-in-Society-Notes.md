@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Use of Knowledge in Society" Notes
+title: The Use of Knowledge in Society Notes
 ---
 Notes on Friedrich August von Hayek's ["The Use of Knowledge in Society"](http://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society), 1945.
 
