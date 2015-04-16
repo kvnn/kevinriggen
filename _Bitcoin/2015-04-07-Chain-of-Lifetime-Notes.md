@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on blockchains for insurance
+title: "Chain of a Lifetime" Notes
 ---
 
 These are my rough notes on ["Chain Of A Lifetime: How Blockchain Technology Might Transform Personal Insurance"]({{ site.url }}/files/Chain_Of_A_Lifetime_December2014.pdf) by Michael Mainelli and Chiara von Gunten at [Long Finance](http://www.longfinance.net/). They reflect my personal beliefs and interests of [Bitcoin](http://en.wikipedia.org/wiki/Bitcoin) and [blockchain](http://en.wikipedia.org/wiki/Bitcoin#Block_chain) technology as related to [Insurance](http://en.wikipedia.org/wiki/Insurance).

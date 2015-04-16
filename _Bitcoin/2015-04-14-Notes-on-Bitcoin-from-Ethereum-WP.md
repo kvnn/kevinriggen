@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on Bitcoin from the Ethereum Whitepaper
+title: Bitcoin Quotes from the Ethereum Whitepaper
 ---
 
 The [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)'s History section has good information on Bitcoin:
@@ -25,11 +25,7 @@ The [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)'s H
 
 --
 
-> in general, there are two approaches toward building a consensus protocol: building an independent network, and building a protocol on top of Bitcoin. The former approach, while reasonably successful in the case of applications like Namecoin, is difficult to implement
-
---
-
-> The Bitcoin-based approach, on the other hand, has the flaw that it does not inherit the simplified payment verification features of Bitcoin... Blockchain-based meta-protocols, on the other hand, cannot force the blockchain not to include transactions that are not valid within the context of their own protocols. Hence, a fully secure SPV meta-protocol implementation would need to backward scan all the way to the beginning of the Bitcoin blockchain to determine whether or not certain transactions are valid.
+> in general, there are two approaches toward building a consensus protocol: building an independent network, and building a protocol on top of Bitcoin. The former approach, while reasonably successful in the case of applications like Namecoin, is difficult to implement... The Bitcoin-based approach, on the other hand, has the flaw that it does not inherit the simplified payment verification features of Bitcoin... Blockchain-based meta-protocols, on the other hand, cannot force the blockchain not to include transactions that are not valid within the context of their own protocols. Hence, a fully secure SPV meta-protocol implementation would need to backward scan all the way to the beginning of the Bitcoin blockchain to determine whether or not certain transactions are valid.
 
 --
 

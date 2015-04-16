@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on the Truthcoin Whitepaper
+title: Truthcoin Notes
 ---
 
 My notes on the [Truthcoin Whitepaper]({{ site.url }}/files/truthcoin-whitepaper.pdf) by Paul Sztorc. The purpose of Truthcoin is to add **"the decentralized creation and administration of [Prediction Markets](PMs)(http://en.wikipedia.org/wiki/Prediction_market)"**. Learn more at [truthcoin.info/](http://truthcoin.info/).
