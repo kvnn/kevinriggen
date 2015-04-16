@@ -27,6 +27,10 @@ h2, h3, h4 {
     font-weight: normal;
 }
 
+img {
+    max-width: 99%;
+}
+
 
 .light {
     color: #eee;

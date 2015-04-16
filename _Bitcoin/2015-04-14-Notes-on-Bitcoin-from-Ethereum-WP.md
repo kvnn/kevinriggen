@@ -39,4 +39,8 @@ The [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)'s H
 
 > However, the scripting language as implemented in Bitcoin has several important limitations
 
+--
+
+> we see three approaches to building advanced applications on top of cryptocurrency: building a new blockchain, using scripting on top of Bitcoin, and building a meta-protocol on top of Bitcoin... With Ethereum, we intend to build an alternative framework that provides even larger gains in ease of development as well as even stronger light client properties
+
 
