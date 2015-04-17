@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BitMessage Notes
+title: BitMessage Whitepaper Notes
 ---
 
 Notes on the [BitMessage Whitepaper]({{ site.url }}/files/bitmessage.pdf) by Jonathan Warren. These are contextual to my knowledge and beliefs at the time.

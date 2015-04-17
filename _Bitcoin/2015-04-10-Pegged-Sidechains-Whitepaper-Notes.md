@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pegged Sidechains Notes
+title: Pegged Sidechains Whitepaper Notes
 ---
 
 These are my rough notes on the [Pegged Sidechains Whitepaper]({{ site.url }}/files/sidechains.pdf) by Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra,

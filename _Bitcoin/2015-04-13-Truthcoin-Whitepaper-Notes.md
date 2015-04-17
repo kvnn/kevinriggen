@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Truthcoin Notes
+title: Truthcoin Whitepaper Notes
 ---
 
 My notes on the [Truthcoin Whitepaper]({{ site.url }}/files/truthcoin-whitepaper.pdf) by Paul Sztorc. The purpose of Truthcoin is to add **"the decentralized creation and administration of [Prediction Markets](PMs)(http://en.wikipedia.org/wiki/Prediction_market)"**. Learn more at [truthcoin.info/](http://truthcoin.info/).
@@ -139,7 +139,7 @@ There is a [thread on r/bitcoin](http://www.reddit.com/r/Bitcoin/comments/21twnb
 
 5. Decisions Mature
     - Voting is done on the Outcome of all the Branch's Decisions which matured this Voting Period
-    - Voters encrypt, sign and broadcast a BVallot which contains their Votes and a new public key
+    - Voters encrypt, sign and broadcast a Ballot which contains their Votes and a new public key
     - Voters can change their Ballot at any time - only the last Ballot stands
 
 6. Votes Decrypted

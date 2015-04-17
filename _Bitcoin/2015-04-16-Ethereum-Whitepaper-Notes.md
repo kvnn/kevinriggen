@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ethereum Notes
+title: Ethereum Whitepaper Notes
 ---
 My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper).
 
