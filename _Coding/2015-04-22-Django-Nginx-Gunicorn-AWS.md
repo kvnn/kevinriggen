@@ -12,6 +12,13 @@ Sorry for the brevity, this is mostly for myself.
 - Virtualenv name: partake_web
 - Django project name: partake_web
 
+### /home/ubuntu/.bashrc
+    # From http://agiliq.com/blog/2014/08/deploying-a-django-app-on-amazon-ec2-instance/
+    export WORKON_HOME=/home/ubuntu/.virtualenvs
+    . /usr/local/bin/virtualenvwrapper.sh
+
+- this is included at the end of the .bashrc file
+
 ### /home/ubuntu/partake_web/start_gunicorn.sh
     #!/bin/bash
     APPNAME=partake_web
@@ -84,3 +91,6 @@ Sorry for the brevity, this is mostly for myself.
         'class': 'logging.handlers.SysLogHandler',
         'formatter': 'normal',
     }
+
+### Other requirements
+- running ` sudo ln -s /lib/init/upstart-job /etc/init.d/partake_web` ?
