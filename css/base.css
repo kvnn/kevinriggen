@@ -31,6 +31,9 @@ img {
     max-width: 99%;
 }
 
+.hidden {
+    display: none;
+}
 
 .light {
     color: #eee;
