@@ -1,5 +1,10 @@
 
 /** General **/
+body {
+    background: url('/img/SequoiaSky.jpg') black no-repeat;
+    background-size: 100%;
+}
+
 a {
     color: #004586;
     text-decoration: none;
@@ -10,7 +15,7 @@ h1 {
 }
 
     h1 a {
-        color: #555;
+        color: #eee;
         font-weight: normal;
     }
 
@@ -25,6 +30,10 @@ h2, h3, h4 {
     margin: 40px 0 0 0;
     color: black;
     font-weight: normal;
+}
+
+h4 {
+    margin: 16px 0 8px;
 }
 
 img {
@@ -93,10 +102,14 @@ header {
 
 .sidebar {
     float: left;
-    width: 150px;
     margin: 0 0 0 20px;
     padding: 0 0 0 10px;
     border-left: 1px solid #eee;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
 }
 
 header {
@@ -110,6 +123,15 @@ footer {
 
 
 /** Posts **/
+#post {
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
 #post section {
     margin: 0 0 20px;
     padding: 0 10px;
