@@ -3,6 +3,8 @@ markdown: rdiscount
 permalink: /:year/:month/:day/:title
 extensions: [smart]
 collections:
+    Life:
+        output: true
     Coding:
         output: true
     Bitcoin:
