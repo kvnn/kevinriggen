@@ -72,7 +72,7 @@ These are my notes on ["Fluent Python"](http://www.amazon.com/Fluent-Python-Luci
 - grabbing excess items in Python 3: a, *body, c, d = range( 5)
 - perform nested tuple unpacking: `for name, cc, pop, (latitude, longitude) in metro_areas:` will give access to *latitude* and *longitude* as individual values of a tuple inside of metro_areas
 
-** Slicing **
+**Slicing**
     
 - slicing operations "are more powerful than most people realize"
 - slice and range exclude the last item
@@ -90,7 +90,7 @@ These are my notes on ["Fluent Python"](http://www.amazon.com/Fluent-Python-Luci
     - del l[5:7]
     - l is now [0, 1, 20, 30, 5, 8, 9]
 
-** Sorting **
+**Sorting**
 
 - "functions or methods that change an object in place should return None to make it clear that the object itself was changed, and no new object was created"
 - *list.sort* sorts a list in-place and returns None
