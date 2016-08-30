@@ -12,6 +12,33 @@
   </head>
   <body>
     <div class="mainest">
+        <div class="main clearfix">
+            <header>
+              <h1><a href="/">{{ page.title }}</a></h1>
+            </header>
+
+            <section class="content">
+              {{ content }}
+            </section>
+
+            <div class="sidebar">
+                <div class="post-list">    
+                {% for collection in site.collections %}
+                    {% capture label %}{{ collection | first }}{% endcapture %}
+                    <h4>{{ label }}</h4>
+                    <ul>
+                        {% for doc in site.collections.[label].docs %}
+                        <li>
+                          <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                {% endfor %}
+                </div>
+            </div>
+
+        </div>
+
         <footer>
             <p><span class="light">Think think think. Build build build.</span> <a href="mailto:kriggen@gmail.com">kriggen@gmail.com</a></p>
         </footer>
