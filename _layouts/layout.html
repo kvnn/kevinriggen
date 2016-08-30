@@ -22,18 +22,24 @@
             </section>
 
             <div class="sidebar">
-                <div class="post-list">    
-                {% for collection in site.collections %}
-                    {% capture label %}{{ collection | first }}{% endcapture %}
-                    <h4>{{ label }}</h4>
-                    <ul>
-                        {% for doc in site.collections.[label].docs %}
-                        <li>
-                          <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                {% endfor %}
+                <div class="post-list">
+                  <h4>Coding</h4>
+                  <ul>
+                      {% for doc in site.Coding reversed %}
+                      <li>
+                        <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+
+                  <h4>Bitcoin</h4>
+                  <ul>
+                      {% for doc in site.Bitcoin %}
+                      <li>
+                        <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
                 </div>
             </div>
 
