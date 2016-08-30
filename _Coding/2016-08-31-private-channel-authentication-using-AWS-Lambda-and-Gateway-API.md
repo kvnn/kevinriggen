@@ -1,6 +1,9 @@
-# Pusher private-channel authentication using AWS Lambda w/ Gateway API
-*Author: kvnn // @kevinriggen // kriggen@gmail.com*
+---
+layout: post
+title: Pusher private-channel authentication using AWS Lambda w/ Gateway API
+---
 
+###Intro
 Pusher private-channels require authentication [i].
 
 Lambda functions [ii] are a good candidate for doing the computation that determines whether a user is 
