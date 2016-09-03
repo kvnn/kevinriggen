@@ -6,7 +6,7 @@ title: Pegged Sidechains Whitepaper Notes
 These are my rough notes on the [Pegged Sidechains Whitepaper]({{ site.url }}/files/sidechains.pdf) by Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra,
 Jorge Timón, and Pieter Wuille. They are contextual to my knowledge and beliefs at the time.
 
-##Purpose
+## Purpose
 The purpose of sidechains is to allow the transfer of bitcoins from the Bitcoin blockchain to a different blockchain (that meets the technical criteria for a sidechain).
 
 *Use-case Example:* **Someone could create a sidechain for registering vehicles in the USA that has hooks into the [DMV](http://en.wikipedia.org/wiki/Hell). To buy someone's car, you could create a transfer from your Bitcoin wallet to the sidechain. Now your money lives on the sidechain, and when the [DMV](http://en.wikipedia.org/wiki/Hell) approves the transfer the money goes to the seller and the car title (stored on the blockchain) goes to you.**
@@ -23,7 +23,7 @@ The purpose of sidechains is to allow the transfer of bitcoins from the Bitcoin 
     6. Upgrading Bitcoin requires all participants to act in concert. This is limiting to small groups' preferences, as they must go along w/ majority consensus
 > "If we had the technology to support the movement of assets between blockchains, new systems could be developed which users could adopt by simply reusing the existing Bitcoin currency"
 
-##Desired Properties of a Solution
+## Desired Properties of a Solution
 1. The holder of an asset which has moved to a sidechain can move it back
 2. There should be no ability for a counterparty to stop an asset from moving if the holder wishes it to move
 3. Transfers are atomic: they happen entirely or not at all
@@ -31,7 +31,7 @@ The purpose of sidechains is to allow the transfer of bitcoins from the Bitcoin 
 5. Blockchain reorgs, even during transfer, should be handled cleanly.
 6. Users shouldn't be required to track sidechains that they aren't actively using
 
-##Terminology
+## Terminology
 *coin or asset:* digital property whose controller can by cryptographically ascertained
 
 *block:* collection of transactions describing changes in asset control
@@ -52,7 +52,7 @@ The purpose of sidechains is to allow the transfer of bitcoins from the Bitcoin 
     a. a list of block headers demonstrating proof-of-work
     b. cryptographic proof that an output was created in one of the blocks in the list
 
-##Symmetric Two-way Peg
+## Symmetric Two-way Peg
 - To transfer parent-chain coins into sidechain coins, the parent chain coins are sent to a special output on the parent chain that can only be unlocked by an SPV proof of possession on the sidechain
     - The same process is used to send the coin back to the parent chain
 - There is a "confirmation period" where a coin must be locked on the parent for a duration (1-2 days) before it can be transferred to the sidechain

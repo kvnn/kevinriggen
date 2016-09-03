@@ -4,16 +4,16 @@ title: Ethereum Whitepaper Notes
 ---
 My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper).
 
-<section>
 
-## History
+
+##  History
 - See my [selected quotes regarding bitcoin]({{site.url}}/Bitcoin/2015-04-14-Notes-on-Bitcoin-from-Ethereum-WP.html).
 - The concept of decentralized digital currency, as well as alternative applications like property registries, has been around for decades.
 - both approaches [proof of work & proof of stake] can be used to serve as the backbone of a cryptocurrency
 
-</section><section>
 
-## Ethereum
+
+##  Ethereum
 > "Ethereum ... is essentially the ultimate abstract foundational layer: a blockchain with a built-in Turing-complete programming language ... allowing anyone to write smart contracts and decentralized applications where they can create their own arbitrary rules for ownership, transaction formats and state transition functions
 
 -  Has a separate blockchain from Bitcoin, and looks to add much more ability to the scripting capability of transactions
@@ -24,7 +24,7 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
     - Blockchain-awareness
     - State
 
-### Accounts
+## Accounts
 - State is made up of 'accounts'
 - Accounts have a 20-byte address
 - State transitions <==attained through==> transfers (of value and information) b/w accounts
@@ -37,7 +37,7 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
         - some accounts are owned by "contract code" rather than private keys
     - Storage - empty by default
 
-### Messages & Transactions
+## Messages & Transactions
 - Transactions: "the signed data package that stores a message to be sent from an externally owned account"
 - Messages & Transactions "leads to the recipient account running its code"
 - Transaction fields:
@@ -61,7 +61,7 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
 
 - **Why don't Messages have a GASPRICE value?**
 
-### State Transition Function
+## State Transition Function
 ![Ethereum State Transition]({{ site.url }}/img/EthereumStateTransition.png)
 
 1. Check if the transaction is valid
@@ -76,7 +76,7 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
 
 6. Otherwise, refund the fees for all remaining gas to the sender, and send the fees paid for gas consumed to the miner.
 
-### Code Execution
+## Code Execution
 - Contract code is written in a low-level, stack-based bytecode language
 - Language is called "Ethereum virtual machine code" or "EVM code"
 - The operations have access to three types of space in which to store data:
@@ -93,7 +93,7 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
 
 > "The formal execution model of EVM code is surprisingly simple. While the Ethereum virtual machine is running, its full computational state can be defined by the tuple (block_state, transaction, message, code, memory, stack, pc, gas), where block_state is the global state containing all accounts and includes balances and storage... a basic implementation of Ethereum can be done in a few hundred lines of code.
 
-### Blockchain & Mining
+## Blockchain & Mining
 - The blockchain is similar to Bitcoin's
 - Unlike Bitcoin, Ethereum blocks contain a copy of both the transaction list and the most recent state
 - In reality efficiency should be comparable to that of Bitcoin
@@ -103,9 +103,9 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
 
 > "the process of executing contract code is part of the definition of the state transition function, which is part of the block validation algorithm, so if a transaction is added into block B the code execution spawned by that transaction will be executed by all nodes, now and in the future, that download and validate block B
 
-</section><section>
 
-## Applications
+
+##  Applications
 1. Financial applications
     - sub-currencies, financial derivatives, hedging contracts, savings wallets, wills, and ultimately even some classes of full-scale employment contracts
 
@@ -116,28 +116,28 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
 3. Non-financial
     - governance & voting
 
-### Token Systems
+## Token Systems
 > "On-blockchain token systems have many applications ranging from sub-currencies representing assets such as USD or gold to company stocks, individual tokens representing smart property, secure unforgeable coupons, and even token systems with no ties to conventional value at all, used as point systems for incentivization
 
 > "The key point to understand is that all a currency, or token system, fundamentally is is a database with one operation: subtract X units from A and give X units to B, with the proviso that (i) A had at least X units before the transaction and (2) the transaction is approved by A. All that it takes to implement a token system is to implement this logic into a contract.
 
 > "Theoretically, Ethereum-based token systems acting as sub-currencies can potentially include another important feature that on-chain Bitcoin-based meta-currencies lack: the ability to pay transaction fees directly in that currency... the contract would maintain an ether balance with which it would refund ether used to pay fees to the sender, and it would refill this balance by collecting the internal currency units that it takes in fees and reselling them in a constant running auction
 
-### Financial derivatives and Stable-Value Currencies
+## Financial derivatives and Stable-Value Currencies
 > 'Financial derivatives are the most common application of a "smart contract", and one of the simplest to implement in code'
 
-### Identity and Reputation Systems
+## Identity and Reputation Systems
 - Like Namecoin; easy to implement in Ether
 
-### Decentralized File Storage
+## Decentralized File Storage
 > "Ethereum contracts can allow for the development of a decentralized file storage ecosystem, where individual users can earn small quantities of money by renting out their own hard drives and unused space can be used to further drive down the costs of file storage.
 
-### Decentralized Autonomous Organizations
+## Decentralized Autonomous Organizations
 > "The simplest design is simply a piece of self-modifying code that changes if two thirds of members agree on a change. Although code is theoretically immutable, one can easily get around this and have de-facto mutability by having chunks of the code in separate contracts, and having the address of which contracts to call stored in the modifiable storage.
 
 > "An alternative model is for a decentralized corporation, where any account can have zero or more shares, and two thirds of the shares are required to make a decision
 
-### Further Applications
+## Further Applications
 - Savings wallets
 - Crop insurance
 - Decentralized data feed
@@ -147,16 +147,16 @@ My notes on the [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Whit
 - Prediction markets
 - On-chain decentralized marketplaces
 
-</section><section>
 
-## Miscellanea & Concerns
+
+##  Miscellanea & Concerns
 - See [original](https://github.com/ethereum/wiki/wiki/White-Paper#miscellanea-and-concerns)
 
-</section><section>
 
-## Conclusion
+
+##  Conclusion
 > "The Ethereum protocol would not "support" any of the applications directly, but the existence of a Turing-complete programming language means that arbitrary contracts can theoretically be created for any transaction type or application"
 
 > "Ethereum is open-ended by design, and we believe that it is extremely well-suited to serving as a foundational layer for a very large number of both financial and non-financial protocols in the years to come."
 
-</section>
+

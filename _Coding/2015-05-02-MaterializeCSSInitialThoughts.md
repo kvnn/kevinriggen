@@ -9,8 +9,8 @@ Materialize is a CSS framework creating by Google in order to "provide familiar 
 #1. CSS
 ------------------
 
-<section>
-## COLOR
+
+##  COLOR
 To apply a background color, just add the color name and light/darkness as a class to the element
 
     <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
@@ -38,10 +38,10 @@ To apply a background color, just add the color name and light/darkness as a cla
     </div>
 </div>
 
-</section>
-<section>
 
-## GRID
+
+
+##  GRID
 - standard 12 column fluid responsive grid system
 - .container class is centered and ~70% of the window width
 - .row classes contain .col classes
@@ -51,30 +51,30 @@ To apply a background color, just add the color name and light/darkness as a cla
 - .section classes have vertical padding and are meant for organizing large sections of content
 - .divider creates a full-width horizontal line for visual separation of content
 
-</section>
-<section>
 
-## HELPERS
+
+
+##  HELPERS
 - .valign-wrapper to hold vertically-aligned .valign elements
 - .left-align .right-align and .center-align for text
 - .left and .right for floating
 - .hide, .{hide|show}-on-{small|med|large}-only, .{hide|show}-on-{med-and-down|med-and-up}
 - .truncate automatically truncates text and appends an ellipsis
 
-</section>
-<section>
 
-## MEDIA
+
+
+##  MEDIA
 - .responsive-img to make images resize responsively
 - .circle for circular images
 - .video-container holds responsive video embeds
 - .no-controls.video-container for videos w/o controls
 - .responsive-video on video elems to make them responsive
 
-</section>
-<section>
 
-## SASS
+
+
+##  SASS
 - change color scheme in _variables.scss
 - @media #{ "$small|$medium|$large"-and-"up|down" } e.g. @media #{$small-and-down}
 - @include transition(.3s) will output:
@@ -130,19 +130,19 @@ To apply a background color, just add the color name and light/darkness as a cla
     </ul>
 </div>
 
-</section>
-<section>
 
-## SHADOW
+
+
+##  SHADOW
 - In material design, everything should have a certain z-depth that determines how far raised or close to the page the element is
 - .z-depth-2
 - @extend .z-depth-2
 ![Materialize Shadows]({{ site.url }}/img/materialize-shadows.png)
 
-</section>
-<section>
 
-## TABLE
+
+
+##  TABLE
 - tables are styled by default
 - .bordered will add borders to a table
 - .striped will add zebra stripes to the table
@@ -150,20 +150,20 @@ To apply a background color, just add the color name and light/darkness as a cla
 - .centered to center all cols
 - .responsive-table will make the table horizontally scrollable on smaller devices
 
-</section>
-<section>
 
-## TYPOGRAPHY
+
+
+##  TYPOGRAPHY
 - Google Roboto is used by default
 - Change the font stack by modifying "font-family" for the "html" element
 ![Materialize font weights]({{ site.url }}/img/materialize-font-weights.png)
 - .flow-text containers resize their text based on screen size
 
-</section>
+
 
 #2. COMPONENTS
 -----------------
-<section>
+
 - Collections are list items
 - Buttons have different states, sizes, positions, icons and flatness
 - Cards:

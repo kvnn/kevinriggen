@@ -4,7 +4,7 @@ title: Django, Nginx and Gunicorn on AWS
 ---
 Sorry for the brevity, this is mostly for myself.
 
-### Example project
+## Example project
 - Name: Partake
 - Type: Django 1.8 project
 - Url: partake.clamor.la
@@ -12,14 +12,14 @@ Sorry for the brevity, this is mostly for myself.
 - Virtualenv name: partake_web
 - Django project name: partake_web
 
-### /home/ubuntu/.bashrc
+## /home/ubuntu/.bashrc
     # From http://agiliq.com/blog/2014/08/deploying-a-django-app-on-amazon-ec2-instance/
     export WORKON_HOME=/home/ubuntu/.virtualenvs
     . /usr/local/bin/virtualenvwrapper.sh
 
 - this is included at the end of the .bashrc file
 
-### /home/ubuntu/partake_web/start_gunicorn.sh
+## /home/ubuntu/partake_web/start_gunicorn.sh
     #!/bin/bash
     APPNAME=partake_web
     APPDIR=/home/ubuntu/$APPNAME/
@@ -46,7 +46,7 @@ Sorry for the brevity, this is mostly for myself.
     --log-level=debug \
     --log-file=$LOGFILE 2>>$LOGFILE  1>>$ERRORFILE &
 
-### /etc/init/partake_web_start.conf
+## /etc/init/partake_web_start.conf
     description "Start partake_web"
     start on runlevel [2345]
     stop on runlevel [06]
@@ -55,7 +55,7 @@ Sorry for the brevity, this is mostly for myself.
     exec /home/ubuntu/partake_web/start_gunicorn.sh
 
 
-### /etc/nginx/sites-available/partake_web 
+## /etc/nginx/sites-available/partake_web 
     server {
             listen 80;
         server_name partake.clamor.la;
@@ -76,7 +76,7 @@ Sorry for the brevity, this is mostly for myself.
         }
 - symlinked to /etc/nginx/sites-enabled/partake_web
 
-### /home/ubuntu/partake_web/partake_web/settings/prod.py
+## /home/ubuntu/partake_web/partake_web/settings/prod.py
     from .base import *
 
     DEBUG = False
@@ -92,5 +92,5 @@ Sorry for the brevity, this is mostly for myself.
         'formatter': 'normal',
     }
 
-### Other requirements
+## Other requirements
 - running ` sudo ln -s /lib/init/upstart-job /etc/init.d/partake_web` ?

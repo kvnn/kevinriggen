@@ -5,19 +5,19 @@ title: Initial Thoughts on Ember.js
 
 My thoughts while reading [Understanding Ember.js](http://guides.emberjs.com/v1.11.0/understanding-ember/the-view-layer/).
 
-## Handlebars Templates
+##  Handlebars Templates
 - shit yeah!
 
-## Child Views
+##  Child Views
 - these solve some problems with child-views that I often encounter when using Backbone:
     - I must write application code to instantiate and clean up child views within a parent view
     - event delegation of the parent view trickles down into the children
 
-## Event Delegation
+##  Event Delegation
 - its nice that they handle context within event delegation
 - its nice that they handle un-delegation of child views
 
-## The Rendering Pipeline
+##  The Rendering Pipeline
 > "For Ember.js, we've done the work to make templates written using the Handlebars templating language automatically update when the values used inside of them are changed."
 
 Heres how a template and view combination is rendered and inserted into the DOM as a string:
@@ -28,7 +28,7 @@ Heres how a template and view combination is rendered and inserted into the DOM 
 
 > "Ember delegates all events to the application's root element ... When an event occurs, Ember identifies the nearest view that handles the event and invokes its event handler"
 
-## Lifecycle Hooks
+##  Lifecycle Hooks
 > "In order to make it easy to take action at different points during your view's lifecycle, there are several hooks you can implement."
     - willInsertElement
     - didInsertElement
@@ -38,11 +38,11 @@ Heres how a template and view combination is rendered and inserted into the DOM 
     - becameHidden
     - These can be registered by defining the hook's name as a method within or as an event registered to the view
 
-## Templated Views
+##  Templated Views
 Ember's templates create a view hierarchy automatically, like this:
 ![Ember template evaluation](http://guides.emberjs.com/v1.11.0/images/view-guide/template-appendChild-interaction.png)
 
-## Asynchrony
+##  Asynchrony
 - Template elements are bound to properties on the post controller. When the post controller's model changes, it automatically propagates those changes to the DOM. Beyond convenient, this forces the good practice of keeping names the same between API, controllers and templates
 
 > "When you make a change to a property in Ember, it does not immediately propagate that change. Instead, it invalidates any dependent properties immediately, but queues the actual change to happen later."
@@ -51,10 +51,10 @@ Ember's templates create a view hierarchy automatically, like this:
 
 > "In Ember, you should always assume that the side-effects of a change you make will happen later. By making that assumption, you allow Ember to coalesce repetitions of the same side-effect into a single call"
 
-## Debugging
+##  Debugging
 - there are a lot of useful debugging resources for ember, including a specific inspector
 
-## The Run Loop
+##  The Run Loop
 > "Ember's internals and most of the code you will write in your applications takes place in a run loop. The run loop is used to batch, and order (or reorder) work in a way that is most effective and efficient."
 
 - work in the queue is ordered by priority according to a documented algorithm
@@ -91,7 +91,7 @@ in favor of something like this:
 - In *testing mode*, autoruns will not happen and will result in an error. This gives you a chance to fix these instances while allowing some slack on production.
 - Also - Ember's tests may give erroneous errors when async application code is ran outside of a run loop
 
-## Dependency Injection & Service Lookup
+##  Dependency Injection & Service Lookup
 - *dependency injection*: a dependent object being injected onto another object during instantiation
 - *service lookup*: when a dependency is created or fetched on demand
 - these share the same goals:

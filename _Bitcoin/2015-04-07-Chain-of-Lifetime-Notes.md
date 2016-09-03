@@ -9,7 +9,7 @@ These are my rough notes on ["Chain Of A Lifetime: How Blockchain Technology Mig
 
 > "Crop insurance could be automated through a smart contract hosted on a blockchain protocol & using an oracle, such as a trusted weather feed"
 
-##The four themes
+## The four themes
 There are four themes of insurance that a blockchain would have great effect upon:
 
      THEME              RELEVANT BLOCKCHAIN COMPONENT
@@ -20,7 +20,7 @@ There are four themes of insurance that a blockchain would have great effect upo
     4. Mutuality <----> Communities
 
 
-##Identity
+## Identity
 >"What if you had a portable, secure globally available store of personal information... that could be shared partially to trusted third parties for things like health insurance claims or rental car quotes..."
 
 - blockchain tech could be used to manage identities & personal information
@@ -31,19 +31,19 @@ There are four themes of insurance that a blockchain would have great effect upo
 - blockchain tech could reduce identity & claim fraud, increase confidence in products & lower rates
 - the concept of "never losing data" could fundamentally change society
 
-##Space
+## Space
 > "What if the importance of regulatory boundaries diminished?"
 > "...insurance coverage could be adjusted across space almost instantaneously while catering to 'local' needs"
 
 > "Could support the tailoring of insurance products by expanding the range of products across places & by enabling nearly instantaneous adjustments of insurance coverage & pricing across space & time"
 
-##Time
+## Time
 > "What if when someone dies & the coroner verifies death * the cause of death to their blockchain, their last will & testament is released publicly, their health records are donated to medical research charities & their life insurance policy pays out automatically"
 
 - Blockchain tech could shorten time perception through the tailoring of insurance products across space & time: perhaps specific covereage for the days a person uses their car as a taxi (Uber) or their home a hotel (Airbnb) can be accounted for in their policies.
 - Imagine if you could quickly add theft and damage insurance to your car for the day because you had to drive to a high-crime area.
 
-##Mutuality
+## Mutuality
 > "An extensive family in India might provide mutual health insurance to each other, backing it up w/ a combination of recipricol arrangements w/ uncorrelated UK village health schemes"
 
 > "Unemployment insurance could gbe merged w/ educational loans & deals struck over a lifetime..."
