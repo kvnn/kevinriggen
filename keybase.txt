@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/kvnn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kevinriggen.com
+  * I am kvnn (https://keybase.io/kvnn) on keybase.
+  * I have a public key ASDW92CSGzTGiBV6BEFOSs9uwc1SzTUnYfGWT3DWJd3GAwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b4434d350b3249452adaca0074d614df0c64d8bf1c4d211cdbfdd71000d8b1f50a",
+            "host": "keybase.io",
+            "kid": "0120d6f760921b34c688157a04414e4acf6ec1cd52cd352761f1964f70d625ddc6030a",
+            "uid": "66190502720c6d55bd0ac03518a76719",
+            "username": "kvnn"
+        },
+        "service": {
+            "hostname": "kevinriggen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486659087,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486659075,
+        "hash": "31e19b52c1d1a298f41a484dd6bcec7b6522d0e92fe5bb6801bc8b83e055d69fc328f0698a00704e8aa98ebf970d5e91f563ccee9fe8aec5b703f5f6660b15fe",
+        "seqno": 859672
+    },
+    "prev": "4a5296da309c507e0da5cd518aef1f64a69afc1eb7d247df1342caeaff5ddae2",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1vdgkhs0xogVegRBTkrPbsHNUs01J2Hxlk9w1iXdxgMKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjQ0MzRkMzUwYjMyNDk0NTJhZGFjYTAwNzRkNjE0ZGYwYzY0ZDhiZjFjNGQyMTFjZGJmZGQ3MTAwMGQ4YjFmNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDZmNzYwOTIxYjM0YzY4ODE1N2EwNDQxNGU0YWNmNmVjMWNkNTJjZDM1Mjc2MWYxOTY0ZjcwZDYyNWRkYzYwMzBhIiwidWlkIjoiNjYxOTA1MDI3MjBjNmQ1NWJkMGFjMDM1MThhNzY3MTkiLCJ1c2VybmFtZSI6Imt2bm4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImtldmlucmlnZ2VuLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODY2NTkwODcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NjY1OTA3NSwiaGFzaCI6IjMxZTE5YjUyYzFkMWEyOThmNDFhNDg0ZGQ2YmNlYzdiNjUyMmQwZTkyZmU1YmI2ODAxYmM4YjgzZTA1NWQ2OWZjMzI4ZjA2OThhMDA3MDRlOGFhOThlYmY5NzBkNWU5MWY1NjNjY2VlOWZlOGFlYzViNzAzZjVmNjY2MGIxNWZlIiwic2Vxbm8iOjg1OTY3Mn0sInByZXYiOiI0YTUyOTZkYTMwOWM1MDdlMGRhNWNkNTE4YWVmMWY2NGE2OWFmYzFlYjdkMjQ3ZGYxMzQyY2FlYWZmNWRkYWUyIiwic2Vxbm8iOjExLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQOHhc4TCHL9VwJnObpShNnpLEeev0imKbOxSk3Lem1FkwivBjy+rm/BXuCcz556t/WngvOeiB3+9yaOAMuWW7wioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAcP5fUKFWtDHvacLoKS7Z93y12Dx41T7Fgl7anRGARHaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kvnn
+
+==================================================================
+
