@@ -23,9 +23,17 @@
 
             <div class="sidebar">
                 <div class="post-list">
+                  <h4>2020</h4>
+                  <ul>
+                    {% for doc in site.2020 reversed %}
+                      <li>
+                        <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
                   <h4>Coding</h4>
                   <ul>
-                      {% for doc in site.Coding reversed %}
+                    {% for doc in site.Coding reversed %}
                       <li>
                         <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
                       </li>
@@ -34,7 +42,7 @@
 
                   <h4>Bitcoin</h4>
                   <ul>
-                      {% for doc in site.Bitcoin %}
+                    {% for doc in site.Bitcoin %}
                       <li>
                         <a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a>
                       </li>
