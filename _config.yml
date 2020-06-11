@@ -1,7 +1,7 @@
 permalink: /:year/:month/:day/:title
 extensions: [smart]
 collections:
-    2020:
+    Year2020:
         output: true
     Coding:
         output: true
