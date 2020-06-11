@@ -1,7 +1,11 @@
 permalink: /:year/:month/:day/:title
 extensions: [smart]
 collections:
+    2020:
+        output: true
     Coding:
         output: true
     Bitcoin:
+        output: true
+    Other:
         output: true
