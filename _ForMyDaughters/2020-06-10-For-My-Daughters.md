@@ -4,9 +4,9 @@ title: For My Daughers 01
 ---
 
 # For my daughters
-Today I have decided to pull myself together, once again, and aim higher, once again. My goals have changed a bit. Every day previous to now I was intent on being a good Father and a good trader. Trading is an activity that is quite specially designated in our nervous systems. It aligns with gambling and crime: activities where there is a murky asymmetry between risk, effort, reward and external liability. I'm content now to be a bad trader (but good provider, and investor!).
+Today I have decided to pull myself together, once again, and aim higher, once again. My goals have changed a bit. 
 
-I'm also comfortable, now, with being just a good-enough Father (because I really under-estimated the difficulty, and need to make the goal realistic). And a decent-enough Husband (I'm just not built to be too good at it). And a good Provider (which is also new - the previous realized goal was to be a good-enough web developer).
+I'm comfortable, now, with being just a *good-enough* Father. I really under-estimated the difficulty, and need to make the goal realistic. And a good-enough Husband (I'm just not built to be too good at it). And a good Provider (which is also new - the previous realized goal was to get RICH).
 
 So, I'm moving on to being a good-enough Father, a decent-enough Husband and a good Provider. The higher criteria for "Provider" is not due to its importance, but due to its understandability. In other words: there is no great barrier preventing me from being a "good" Provider. The barrier to being a "good" or "great" Father is baked into the times that we live in and the basic human condition.
 
