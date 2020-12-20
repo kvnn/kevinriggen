@@ -1,8 +1,6 @@
 permalink: /:year/:month/:day/:title
 extensions: [smart]
 collections:
-    ForMyDaughters:
-        output: true
     Coding:
         output: true
     Bitcoin:
